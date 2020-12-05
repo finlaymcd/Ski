@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{C3983839-4AAD-8819-C0BF-1D82E2B14C38}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MadMountain",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameLiftServerSDK",
+			"Enabled": true
+		},
+		{
+			"Name": "GameLiftClientSDK",
+			"Enabled": true
+		}
+	]
+}
